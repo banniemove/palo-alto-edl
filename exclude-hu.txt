@@ -1,1 +1,4 @@
 # Prefixes die NIET in ip-list-hu.txt mogen. Zie reports/hu.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+85.204.99.0/24         # AS5483 RO
+86.104.9.0/24          # AS5483 RO

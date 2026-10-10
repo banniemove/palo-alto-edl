@@ -1,1 +1,5 @@
 # Prefixes die NIET in ip-list-ro.txt mogen. Zie reports/ro.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+80.96.72.0/24          # AS8708 MD
+80.96.79.0/24          # AS8708 MD
+89.39.67.0/24          # AS9050 GB

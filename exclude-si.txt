@@ -1,1 +1,3 @@
 # Prefixes die NIET in ip-list-si.txt mogen. Zie reports/si.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+185.79.228.0/22        # AS3212 BA

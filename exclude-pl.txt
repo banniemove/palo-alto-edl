@@ -1,1 +1,3 @@
 # Prefixes die NIET in ip-list-pl.txt mogen. Zie reports/pl.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+168.199.245.0/24       # AS12741 US

@@ -1,1 +1,4 @@
 # Prefixes die NIET in ip-list-sk.txt mogen. Zie reports/sk.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+193.84.96.0/22         # AS6855 CZ
+194.50.215.0/24        # AS6855 CZ

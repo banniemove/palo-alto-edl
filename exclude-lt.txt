@@ -1,1 +1,18 @@
 # Prefixes die NIET in ip-list-lt.txt mogen. Zie reports/lt.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+159.148.249.0/24       # AS13194 LV
+159.148.73.0/24        # AS13194 LV
+80.81.54.0/24          # AS13194 LV
+85.254.100.0/23        # AS13194 LV
+85.254.102.0/24        # AS13194 LV
+85.254.123.0/24        # AS13194 LV
+85.254.141.0/24        # AS13194 LV
+85.254.149.0/24        # AS13194 LV
+85.254.151.0/24        # AS13194 LV
+85.254.152.0/22        # AS13194 LV
+85.254.170.0/24        # AS13194 LV
+85.254.176.0/23        # AS13194 LV
+85.254.69.0/24         # AS13194 LV
+85.254.71.0/24         # AS13194 LV
+85.254.73.0/24         # AS13194 LV
+91.190.48.0/23         # AS13194 LV
