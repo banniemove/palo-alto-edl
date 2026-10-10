@@ -3,4 +3,4 @@
 AS5391 # Hrvatski Telekom
 AS13046 # Iskon (Hrvatski Telekom)
 AS31012 # A1 Hrvatska
-AS35648 # Hrvatski Telekom mobiel
+# AS35648 HT mobiel: kondigt niets aan (zit in AS5391)

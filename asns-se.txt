@@ -6,5 +6,5 @@ AS1257 # Tele2 Sverige
 AS8642 # Telenor Sverige
 AS8473 # Bahnhof
 AS8434 # Telenor Sverige
-AS8984 # Telenor Sverige
-AS25169 # Telenor Sverige
+# AS8984 Telenor Sverige: kondigt niets aan
+# AS25169 Telenor Sverige: kondigt niets aan
