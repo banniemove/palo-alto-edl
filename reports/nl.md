@@ -1,6 +1,6 @@
 # Controlerapport NL
 
-Gegenereerd: 2026-10-10 07:18 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1339 prefixes (1162 IPv4, 177 IPv6).
+Gegenereerd: 2026-10-10 07:24 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1325 prefixes (1149 IPv4, 176 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
@@ -24,22 +24,3 @@ Gegenereerd: 2026-10-10 07:18 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1339
 | AS208864 | weserve Weserve B.V. | 28 | 2 | 0 |
 | AS35467 | DDF-AS DDFR IT Infra & Security B.V. | 13 | 1 | 0 |
 | AS62105 | JONAZ Fiber Crew B.V. | 6 | 1 | 0 |
-
-## Prefixes buiten het land die nog in de lijst staan
-
-Volgens GeoLite in gebruik buiten dit land. Voeg ze toe aan `exclude-nl.txt` als ze eruit moeten.
-
-- `160.48.160.0/23` AS1136 (DE)
-- `193.141.108.0/24` AS1136 (PL)
-- `193.141.111.0/24` AS1136 (PL)
-- `194.120.128.0/22` AS1136 (GB)
-- `194.120.132.0/24` AS1136 (GB)
-- `194.120.134.0/23` AS1136 (AT, ES, GB, PT)
-- `194.120.146.0/23` AS1136 (GB)
-- `194.120.52.0/23` AS1136 (GB)
-- `194.45.80.0/21` AS1136 (DE)
-- `194.45.88.0/22` AS1136 (DE)
-- `194.45.92.0/23` AS1136 (DE)
-- `194.45.95.0/24` AS1136 (DE)
-- `213.218.64.0/20` AS1136 (PL)
-- `2a03:1e84:abf::/48` AS1136 (DE)
