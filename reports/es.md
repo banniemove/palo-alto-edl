@@ -1,6 +1,6 @@
 # Controlerapport ES
 
-Gegenereerd: 2026-10-10 07:52 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 9068 prefixes (7487 IPv4, 1581 IPv6).
+Gegenereerd: 2026-10-10 08:01 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 9068 prefixes (7487 IPv4, 1581 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
