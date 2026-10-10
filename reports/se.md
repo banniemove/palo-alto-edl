@@ -1,18 +1,21 @@
 # Controlerapport SE
 
-Gegenereerd: 2026-10-10 07:47 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 903 prefixes (813 IPv4, 90 IPv6).
+Gegenereerd: 2026-10-10 07:57 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 986 prefixes (889 IPv4, 97 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
 | AS3301 | TELIANET-SWEDEN Telia Company AB | 304 | 42 | 1 |
 | AS1257 | SWIPNET - Tele2 Sverige AB | 386 | 37 | 13 |
-| AS39651 | TELE2-FIXED-SWEDEN Tele2 Sverige AB | 0 | 0 | 0 |
 | AS8642 | TELENOR-SE Telenor Sverige AB | 1 | 0 | 0 |
 | AS8473 | BAHNHOF Bahnhof AB | 124 | 11 | 6 |
+| AS8434 | TELENOR-SE Telenor Sverige AB | 76 | 7 | 1 |
+| AS8984 | TELENOR-SE Telenor Sverige AB | 0 | 0 | 0 |
+| AS25169 | TELENOR-SE-AS Telenor Sverige AB | 0 | 0 | 0 |
 
 ## Waarschuwingen
 
-- AS39651 (TELE2-FIXED-SWEDEN Tele2 Sverige AB) kondigt geen prefixes aan.
+- AS8984 (TELENOR-SE Telenor Sverige AB) kondigt geen prefixes aan.
+- AS25169 (TELENOR-SE-AS Telenor Sverige AB) kondigt geen prefixes aan.
 
 ## Prefixes buiten het land die nog in de lijst staan
 
@@ -27,6 +30,7 @@ Volgens GeoLite in gebruik buiten dit land. Voeg ze toe aan `exclude-se.txt` als
 - `194.14.8.0/24` AS3301 (DK)
 - `194.71.85.0/24` AS1257 (?)
 - `212.107.32.0/19` AS1257 (EE)
+- `217.71.119.0/24` AS8434 (BE)
 - `2a01:1b8::/32` AS1257 (EE)
 - `2a01:460::/32` AS8473 (NO)
 - `37.0.128.0/17` AS1257 (LT)

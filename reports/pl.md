@@ -1,6 +1,6 @@
 # Controlerapport PL
 
-Gegenereerd: 2026-10-10 07:46 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 543 prefixes (516 IPv4, 27 IPv6).
+Gegenereerd: 2026-10-10 07:56 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 549 prefixes (522 IPv4, 27 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
@@ -11,6 +11,7 @@ Gegenereerd: 2026-10-10 07:46 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 543 
 | AS12741 | AS-NETIA Netia SA | 165 | 3 | 1 |
 | AS29314 | VECTRANET-AS VECTRA S.A. | 147 | 13 | 0 |
 | AS21021 | MULTIMEDIA-AS Multimedia Polska Sp. z o.o. | 45 | 2 | 0 |
+| AS6830 (geo) | LibertyGlobal Liberty Global Europe Holding B.V. | 6 | 0 | 0 |
 
 ## Prefixes buiten het land die nog in de lijst staan
 
