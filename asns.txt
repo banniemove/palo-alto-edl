@@ -1,0 +1,22 @@
+# Nederlandse providers met eigen netwerk; bron voor ip-list-nl.txt
+# Een AS per regel. Alles na # is commentaar.
+AS1136    # KPN
+AS8737    # KPN (ex-Planet)
+AS33915   # VodafoneZiggo
+AS50266   # Odido (hoofd-AS)
+AS13127   # Odido (backbone, ex-Tele2)
+AS31615   # Odido (mobiel)
+AS15435   # DELTA Fiber (DELTA, Caiway, ZeelandNet)
+AS30925   # DELTA Fiber Zakelijk (SpeedXS)
+AS39686   # Eurofiber (Belgische ranges in exclude.txt)
+AS12414   # Solcon
+AS43995   # Kabeltex
+AS202606  # Fiber Noord
+AS206238  # Freedom Internet
+AS28878   # Signet
+AS39700   # Signet Breedband
+AS207375  # FIBO Fiber Operator
+AS28685   # Routit
+AS208864  # Weserve
+AS35467   # DDFR IT Infra & Security
+AS62105   # JONAZ Fiber Crew
