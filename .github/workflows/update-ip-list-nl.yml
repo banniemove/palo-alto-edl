@@ -1,4 +1,4 @@
-name: Update IP-lijsten (NL, FR)
+name: Update IP-lijsten
 
 on:
   schedule:
@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-ip-lists
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -23,20 +27,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Nederland
-        run: python scripts/update_ip_list.py asns-nl.txt exclude-nl.txt ip-list-nl.txt
-      - name: Frankrijk
-        if: always()   # NL-fout mag FR niet blokkeren
-        run: python scripts/update_ip_list.py asns-fr.txt exclude-fr.txt ip-list-fr.txt
-      - name: Commit als er iets veranderd is
-        if: always()
+      - name: Alle landen bijwerken
         run: |
-          git add ip-list-*.txt
-          if git diff --cached --quiet; then
+          failed=""
+          for f in asns-*.txt; do
+            cc="${f#asns-}"; cc="${cc%.txt}"
+            echo "::group::$cc"
+            python scripts/update_ip_list.py "$cc" || failed="$failed $cc"
+            echo "::endgroup::"
+          done
+          echo "FAILED=$failed" >> "$GITHUB_ENV"
+      - name: Commit als er iets veranderd is
+        run: |
+          git add ip-list-*.txt reports/
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git commit -m "IP-lijsten bijgewerkt ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push
+          else
             echo "Geen wijzigingen."
-            exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git commit -m "IP-lijsten bijgewerkt ($(date -u +%Y-%m-%d))"
-          git push
+      - name: Mislukte landen melden
+        if: env.FAILED != ''
+        run: |
+          echo "Niet bijgewerkt:${FAILED}"
+          exit 1

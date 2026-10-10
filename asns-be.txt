@@ -1,0 +1,7 @@
+# Providers met eigen netwerk; bron voor ip-list-be.txt
+# Een AS per regel. Alles na # is commentaar.
+AS5432    # Proximus
+AS6848    # Telenet
+AS12392   # VOO (Brutele)
+AS47377   # Orange Belgium
+AS9031    # EDPnet

@@ -1,0 +1,6 @@
+# Providers met eigen netwerk; bron voor ip-list-at.txt
+# Een AS per regel. Alles na # is commentaar.
+AS8447    # A1 Telekom Austria
+AS8412    # Magenta Telekom (ex-T-Mobile/UPC)
+AS25255   # Drei (Hutchison)
+AS12605   # LIWEST

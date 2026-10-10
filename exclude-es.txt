@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-es.txt mogen. Zie reports/es.md voor kandidaten.

@@ -1,0 +1,9 @@
+# Providers met eigen netwerk; bron voor ip-list-es.txt
+# Een AS per regel. Alles na # is commentaar.
+AS3352    # Telefonica de Espana (Movistar)
+AS12430   # Vodafone Espana
+AS6739    # Vodafone Ono
+AS12479   # Orange Espagne
+AS12715   # Jazztel (Orange)
+AS57269   # DIGI Spain
+AS12338   # Euskaltel

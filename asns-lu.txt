@@ -1,0 +1,4 @@
+# Providers met eigen netwerk; bron voor ip-list-lu.txt
+# Een AS per regel. Alles na # is commentaar.
+AS6661    # POST Luxembourg
+AS56665   # Proximus Luxembourg (Tango)

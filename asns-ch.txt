@@ -1,0 +1,7 @@
+# Providers met eigen netwerk; bron voor ip-list-ch.txt
+# Een AS per regel. Alles na # is commentaar.
+AS3303    # Swisscom
+AS6730    # Sunrise (incl. ex-UPC)
+AS15796   # Salt
+AS13030   # Init7
+AS15600   # Quickline

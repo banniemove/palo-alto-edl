@@ -1,0 +1,12 @@
+# Providers met eigen netwerk; bron voor ip-list-de.txt
+# Een AS per regel. Alles na # is commentaar.
+AS3320    # Deutsche Telekom
+AS3209    # Vodafone Deutschland
+AS31334   # Vodafone Kabel Deutschland
+AS6805    # Telefonica Germany (O2)
+AS8881    # 1&1 Versatel
+AS60294   # Deutsche Glasfaser
+AS8422    # NetCologne
+AS8767    # M-net
+AS9145    # EWE TEL
+AS20880   # Tele Columbus (PYUR)
