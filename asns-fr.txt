@@ -1,0 +1,11 @@
+# Franse providers met eigen netwerk; bron voor ip-list-fr.txt
+# Een AS per regel. Alles na # is commentaar.
+AS3215    # Orange France (vast en mobiel)
+AS15557   # SFR (LDCOM)
+AS21502   # SFR (ex-Numericable, kabel)
+AS8228    # SFR (ex-Cegetel)
+AS5410    # Bouygues Telecom
+AS12322   # Free (Proxad)
+AS51207   # Free Mobile
+AS24904   # K-Net (regionaal glas)
+AS34177   # Celeste (zakelijk glas)

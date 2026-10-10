@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Bouwt ip-list-nl.txt opnieuw op uit de aangekondigde prefixes (RIPEstat)
-van Nederlandse providers met eigen netwerk.
+"""Bouwt een IP-lijst (EDL) opnieuw op uit de aangekondigde prefixes (RIPEstat)
+van providers met eigen netwerk in een land.
 
-- AS-nummers staan in asns.txt (een AS per regel, # = commentaar)
-- Prefixes in exclude.txt worden overgeslagen (bijv. Belgische Eurofiber-ranges)
+- AS-nummers staan in het asns-bestand (een AS per regel, # = commentaar)
+- Prefixes in het exclude-bestand worden overgeslagen
 - Veiligheidsrem: als een AS ineens 0 prefixes geeft, of het totaal meer dan
   20% daalt t.o.v. de huidige lijst, wordt er niets overschreven.
 """
@@ -15,9 +15,6 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ASNS_FILE = ROOT / "asns.txt"
-EXCLUDE_FILE = ROOT / "exclude.txt"
-OUT_FILE = ROOT / "ip-list-nl.txt"
 API = "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS{asn}&sourceapp=palo-alto-edl"
 
 
@@ -46,6 +43,10 @@ def fetch(asn):
 
 
 def main():
+    # Gebruik: update_ip_list.py <asns-bestand> <exclude-bestand> <uitvoerbestand>
+    if len(sys.argv) != 4:
+        sys.exit("Gebruik: update_ip_list.py <asns.txt> <exclude.txt> <ip-list.txt>")
+    ASNS_FILE, EXCLUDE_FILE, OUT_FILE = (ROOT / a for a in sys.argv[1:])
     asns = [a.upper().removeprefix("AS") for a in read_list(ASNS_FILE)]
     exclude = {ipaddress.ip_network(p) for p in read_list(EXCLUDE_FILE)}
 
@@ -61,6 +62,8 @@ def main():
     prefixes -= exclude
     out = sorted(prefixes, key=lambda n: (n.version, n))
 
+    if not out:
+        sys.exit("Lege lijst - afgebroken.")
     if OUT_FILE.exists():
         old = [l for l in OUT_FILE.read_text().splitlines() if l.strip()]
         if len(out) < 0.8 * len(old):

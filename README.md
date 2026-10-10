@@ -1,13 +1,19 @@
 # palo-alto-edl
 Pasting this data from Prisma Browser is prohibited
 
-## ip-list-nl.txt
+## IP-lijsten per land
 
-IPv4- en IPv6-prefixes van Nederlandse internetproviders met een eigen netwerk.
-Wordt elke maandag automatisch bijgewerkt via RIPEstat (GitHub Action `update-ip-list-nl`).
+Prefixes (IPv4 en IPv6) van internetproviders met een eigen netwerk, per land.
+Elke maandag automatisch bijgewerkt via RIPEstat (GitHub Action *Update IP-lijsten*).
 
-- `asns.txt` - welke AS-nummers erin gaan
-- `exclude.txt` - prefixes die eruit blijven (bijv. Belgische Eurofiber-ranges)
-- Handmatig bijwerken: tabblad **Actions** > *Update ip-list-nl.txt* > **Run workflow**
+| Land | Lijst | AS-nummers | Uitsluitingen |
+|---|---|---|---|
+| Nederland | `ip-list-nl.txt` | `asns-nl.txt` | `exclude-nl.txt` |
+| Frankrijk | `ip-list-fr.txt` | `asns-fr.txt` | `exclude-fr.txt` |
 
-EDL-URL: `https://raw.githubusercontent.com/banniemove/palo-alto-edl/refs/heads/main/ip-list-nl.txt`
+- Handmatig bijwerken: tabblad **Actions** > *Update IP-lijsten (NL, FR)* > **Run workflow**
+- Veiligheidsrem: bij een AS met 0 prefixes of >20% daling wordt de lijst niet overschreven.
+
+EDL-URL's:
+- `https://raw.githubusercontent.com/banniemove/palo-alto-edl/refs/heads/main/ip-list-nl.txt`
+- `https://raw.githubusercontent.com/banniemove/palo-alto-edl/refs/heads/main/ip-list-fr.txt`

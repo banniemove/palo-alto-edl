@@ -1,0 +1,2 @@
+# Prefixes die NIET in ip-list-fr.txt mogen, ook al kondigt een AS uit asns-fr.txt ze aan.
+# Een prefix per regel. Alles na # is commentaar.

@@ -1,4 +1,4 @@
-name: Update ip-list-nl.txt
+name: Update IP-lijsten (NL, FR)
 
 on:
   schedule:
@@ -7,9 +7,9 @@ on:
   push:
     branches: [main]
     paths:
-      - asns.txt
-      - exclude.txt
-      - scripts/update_ip_list_nl.py
+      - asns-*.txt
+      - exclude-*.txt
+      - scripts/update_ip_list.py
       - .github/workflows/update-ip-list-nl.yml
 
 permissions:
@@ -23,16 +23,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Prefixes ophalen bij RIPEstat
-        run: python scripts/update_ip_list_nl.py
+      - name: Nederland
+        run: python scripts/update_ip_list.py asns-nl.txt exclude-nl.txt ip-list-nl.txt
+      - name: Frankrijk
+        if: always()   # NL-fout mag FR niet blokkeren
+        run: python scripts/update_ip_list.py asns-fr.txt exclude-fr.txt ip-list-fr.txt
       - name: Commit als er iets veranderd is
+        if: always()
         run: |
-          if git diff --quiet -- ip-list-nl.txt; then
+          git add ip-list-*.txt
+          if git diff --cached --quiet; then
             echo "Geen wijzigingen."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add ip-list-nl.txt
-          git commit -m "ip-list-nl.txt bijgewerkt ($(date -u +%Y-%m-%d))"
+          git commit -m "IP-lijsten bijgewerkt ($(date -u +%Y-%m-%d))"
           git push
