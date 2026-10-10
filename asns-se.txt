@@ -2,6 +2,9 @@
 # Een AS per regel. Alles na # is commentaar.
 AS3301 # Telia Sverige
 AS1257 # Tele2 Sverige
-AS39651 # Tele2 (ex-Com Hem)
+# AS39651 Tele2 Fixed: kondigt niets aan (zit in AS1257)
 AS8642 # Telenor Sverige
 AS8473 # Bahnhof
+AS8434 # Telenor Sverige
+AS8984 # Telenor Sverige
+AS25169 # Telenor Sverige

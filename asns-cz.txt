@@ -3,3 +3,4 @@
 AS5610 # O2 Czech Republic
 AS16019 # Vodafone Czech Republic
 AS5588 # T-Mobile Czech Republic
+AS6830 geo # ex-UPC Ceska republika (Liberty Global, alleen CZ-prefixes)

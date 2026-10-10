@@ -1,6 +1,6 @@
 # Providers met eigen netwerk; bron voor ip-list-ie.txt
 # Een AS per regel. Alles na # is commentaar.
 AS5466 # eir
-AS6830 # Virgin Media Ireland (Liberty Global, buitenland via exclude)
+AS6830 geo # Virgin Media Ireland (Liberty Global, alleen IE-prefixes)
 AS15502 # Vodafone Ireland
 AS13280 # Three Ireland

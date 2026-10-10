@@ -7,3 +7,4 @@ AS39603 # Play (P4)
 AS12741 # Netia
 AS29314 # Vectra
 AS21021 # Multimedia Polska
+AS6830 geo # UPC Polska / Play (Liberty Global, alleen PL-prefixes)

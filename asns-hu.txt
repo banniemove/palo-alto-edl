@@ -1,5 +1,7 @@
 # Providers met eigen netwerk; bron voor ip-list-hu.txt
 # Een AS per regel. Alles na # is commentaar.
 AS5483 # Magyar Telekom
-AS21334 # Vodafone Hungary (One)
-AS20845 # DIGI Hungary
+AS21334 # One Hungary (netwerk: 2Connect)
+AS20845 # DIGI / One Hungary (netwerk: 2Connect)
+AS6830 geo # ex-UPC Magyarorszag (Liberty Global, alleen HU-prefixes)
+AS213155 # Yettel Hungary

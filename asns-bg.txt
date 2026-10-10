@@ -2,4 +2,5 @@
 # Een AS per regel. Alles na # is commentaar.
 AS8866 # Vivacom
 AS8717 # A1 Bulgaria
-AS41220 # Yettel Bulgaria
+# AS41220 was fout (Building Service LLC)
+AS29244 # Yettel Bulgaria (netwerk: CETIN Bulgaria)

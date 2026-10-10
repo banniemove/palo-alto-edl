@@ -1,5 +1,6 @@
 # Providers met eigen netwerk; bron voor ip-list-hr.txt
 # Een AS per regel. Alles na # is commentaar.
 AS5391 # Hrvatski Telekom
-AS13046 # A1 Hrvatska
-AS31012 # Telemach Hrvatska
+AS13046 # Iskon (Hrvatski Telekom)
+AS31012 # A1 Hrvatska
+AS35648 # Hrvatski Telekom mobiel

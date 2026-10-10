@@ -2,4 +2,5 @@
 # Een AS per regel. Alles na # is commentaar.
 AS6855 # Slovak Telekom
 AS15962 # Orange Slovensko
-AS16160 # SWAN (4ka)
+# AS16160 SWAN (4ka): kondigt niets aan
+AS6830 geo # UPC Slovensko (Liberty Global, alleen SK-prefixes)

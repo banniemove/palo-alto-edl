@@ -4,7 +4,9 @@
 Gebruik:  python scripts/update_ip_list.py <landcode>      bijv. nl, fr, de
 
 Per land:
-  asns-<cc>.txt     AS-nummers (een per regel, # = commentaar)
+  asns-<cc>.txt     AS-nummers (een per regel, # = commentaar). Zet "geo" achter
+                    een AS dat in meerdere landen actief is: dan komen alleen
+                    prefixes mee die volgens GeoLite in dit land liggen.
   exclude-<cc>.txt  prefixes die eruit blijven (optioneel)
   ip-list-<cc>.txt  uitvoer: een prefix per regel, eerst IPv4 dan IPv6
   reports/<cc>.md   controlerapport: houder, aantal prefixes en geolocatie per AS
@@ -56,19 +58,24 @@ def ripestat(call, asn):
     raise RuntimeError(f"AS{asn} {call}: ophalen mislukt: {last_err}")
 
 
-def foreign_prefixes(asn, cc):
-    """Prefixes waarvan geen enkele geolocatie in het land ligt (MaxMind GeoLite)."""
+def geo_split(asn, cc):
+    """(buitenland, binnenland) volgens MaxMind GeoLite.
+    buitenland: {prefix: [landen]} zonder enige locatie in het land;
+    binnenland: set van prefixes met minstens een locatie in het land.
+    Bij een fout: (None, None)."""
     ok = {cc} | EXTRA_CODES.get(cc, set())
     try:
         geo = ripestat("maxmind-geo-lite-announced-by-as", asn)
     except RuntimeError:
-        return None
-    out = {}
+        return None, None
+    foreign, domestic = {}, set()
     for res in geo.get("located_resources", []):
         countries = {loc.get("country") for loc in res.get("locations", []) if loc.get("country")}
-        if countries and not (countries & ok):
-            out[res["resource"]] = sorted(countries)
-    return out
+        if countries & ok:
+            domestic.add(ipaddress.ip_network(res["resource"]))
+        elif countries:
+            foreign[res["resource"]] = sorted(countries)
+    return foreign, domestic
 
 
 def main():
@@ -80,18 +87,26 @@ def main():
     out_file = ROOT / f"ip-list-{cc}.txt"
     report_file = ROOT / "reports" / f"{cc}.md"
 
-    asns = [a.upper().removeprefix("AS") for a in read_list(asns_file)]
+    entries = [line.split() for line in read_list(asns_file)]
+    asns = [(e[0].upper().removeprefix("AS"), "geo" in (x.lower() for x in e[1:])) for e in entries]
     exclude = {ipaddress.ip_network(p) for p in read_list(exclude_file)}
 
     prefixes = set()
     rows, foreign_all, warnings = [], {}, []
-    for asn in asns:
+    for asn, geo_only in asns:
         holder = ripestat("as-overview", asn).get("holder", "?")
         nets = {ipaddress.ip_network(p["prefix"]) for p in ripestat("announced-prefixes", asn)["prefixes"]}
-        foreign = foreign_prefixes(asn, cc.upper())
+        foreign, domestic = geo_split(asn, cc.upper())
+        if geo_only:
+            if domestic is None:
+                raise RuntimeError(f"AS{asn}: geolocatie nodig (geo) maar niet op te halen")
+            nets = {n for n in nets
+                    if any(n.version == d.version and n.overlaps(d) for d in domestic)}
+            foreign = {}
         v4 = sum(n.version == 4 for n in nets)
         n_foreign = "?" if foreign is None else len(foreign)
-        rows.append(f"| AS{asn} | {holder} | {v4} | {len(nets) - v4} | {n_foreign} |")
+        label = f"AS{asn}" + (" (geo)" if geo_only else "")
+        rows.append(f"| {label} | {holder} | {v4} | {len(nets) - v4} | {n_foreign} |")
         if not nets:
             warnings.append(f"AS{asn} ({holder}) kondigt geen prefixes aan.")
         for p, c in (foreign or {}).items():
