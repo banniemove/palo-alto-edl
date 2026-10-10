@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-sk.txt mogen. Zie reports/sk.md voor kandidaten.

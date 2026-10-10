@@ -1,0 +1,5 @@
+# Providers met eigen netwerk; bron voor ip-list-fi.txt
+# Een AS per regel. Alles na # is commentaar.
+AS719 # Elisa
+AS1759 # Telia Finland
+AS16086 # DNA

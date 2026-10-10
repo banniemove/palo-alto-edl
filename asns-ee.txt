@@ -1,0 +1,4 @@
+# Providers met eigen netwerk; bron voor ip-list-ee.txt
+# Een AS per regel. Alles na # is commentaar.
+AS3249 # Telia Eesti
+AS2586 # Elisa Eesti

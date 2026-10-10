@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-fi.txt mogen. Zie reports/fi.md voor kandidaten.

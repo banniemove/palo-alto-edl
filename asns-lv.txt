@@ -1,0 +1,4 @@
+# Providers met eigen netwerk; bron voor ip-list-lv.txt
+# Een AS per regel. Alles na # is commentaar.
+AS12578 # Tet (ex-Lattelecom)
+AS24921 # LMT

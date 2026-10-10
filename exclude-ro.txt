@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-ro.txt mogen. Zie reports/ro.md voor kandidaten.

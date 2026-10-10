@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-se.txt mogen. Zie reports/se.md voor kandidaten.

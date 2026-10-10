@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-cy.txt mogen. Zie reports/cy.md voor kandidaten.

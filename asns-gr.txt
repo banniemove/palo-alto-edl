@@ -1,0 +1,6 @@
+# Providers met eigen netwerk; bron voor ip-list-gr.txt
+# Een AS per regel. Alles na # is commentaar.
+AS6799 # Cosmote (OTE)
+AS3329 # Vodafone Greece
+AS1241 # Nova (ex-Forthnet)
+AS25472 # Nova (ex-Wind Hellas)

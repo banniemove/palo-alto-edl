@@ -1,0 +1,5 @@
+# Providers met eigen netwerk; bron voor ip-list-hu.txt
+# Een AS per regel. Alles na # is commentaar.
+AS5483 # Magyar Telekom
+AS21334 # Vodafone Hungary (One)
+AS20845 # DIGI Hungary

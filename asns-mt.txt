@@ -1,0 +1,5 @@
+# Providers met eigen netwerk; bron voor ip-list-mt.txt
+# Een AS per regel. Alles na # is commentaar.
+AS15735 # GO
+AS12709 # Melita
+AS33763 # Epic Malta

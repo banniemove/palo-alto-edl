@@ -1,0 +1,6 @@
+# Providers met eigen netwerk; bron voor ip-list-cy.txt
+# Een AS per regel. Alles na # is commentaar.
+AS6866 # Cyta
+AS8544 # PrimeTel
+AS35432 # Cablenet
+AS50233 # Epic Cyprus

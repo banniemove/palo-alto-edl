@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-gr.txt mogen. Zie reports/gr.md voor kandidaten.

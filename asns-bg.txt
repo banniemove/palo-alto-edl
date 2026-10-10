@@ -1,0 +1,5 @@
+# Providers met eigen netwerk; bron voor ip-list-bg.txt
+# Een AS per regel. Alles na # is commentaar.
+AS8866 # Vivacom
+AS8717 # A1 Bulgaria
+AS41220 # Yettel Bulgaria

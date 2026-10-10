@@ -1,0 +1,6 @@
+# Providers met eigen netwerk; bron voor ip-list-dk.txt
+# Een AS per regel. Alles na # is commentaar.
+AS3292 # TDC / Nuuday (YouSee)
+AS9158 # Telenor Denmark
+AS3308 # Telia Denmark
+AS44869 # 3 Denmark

@@ -1,0 +1,6 @@
+# Providers met eigen netwerk; bron voor ip-list-si.txt
+# Een AS per regel. Alles na # is commentaar.
+AS5603 # Telekom Slovenije
+AS21283 # A1 Slovenija
+AS3212 # Telemach Slovenija
+AS34779 # T-2

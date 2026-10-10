@@ -1,0 +1,5 @@
+# Providers met eigen netwerk; bron voor ip-list-lt.txt
+# Een AS per regel. Alles na # is commentaar.
+AS8764 # Telia Lietuva
+AS13194 # Bite Lietuva
+AS21412 # Cgates

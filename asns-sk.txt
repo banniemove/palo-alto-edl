@@ -1,0 +1,5 @@
+# Providers met eigen netwerk; bron voor ip-list-sk.txt
+# Een AS per regel. Alles na # is commentaar.
+AS6855 # Slovak Telekom
+AS15962 # Orange Slovensko
+AS16160 # SWAN (4ka)

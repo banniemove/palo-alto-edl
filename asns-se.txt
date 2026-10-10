@@ -1,0 +1,7 @@
+# Providers met eigen netwerk; bron voor ip-list-se.txt
+# Een AS per regel. Alles na # is commentaar.
+AS3301 # Telia Sverige
+AS1257 # Tele2 Sverige
+AS39651 # Tele2 (ex-Com Hem)
+AS8642 # Telenor Sverige
+AS8473 # Bahnhof

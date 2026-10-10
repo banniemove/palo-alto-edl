@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-cz.txt mogen. Zie reports/cz.md voor kandidaten.

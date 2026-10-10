@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-bg.txt mogen. Zie reports/bg.md voor kandidaten.

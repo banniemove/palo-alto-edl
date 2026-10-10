@@ -1,0 +1,1 @@
+# Prefixes die NIET in ip-list-dk.txt mogen. Zie reports/dk.md voor kandidaten.

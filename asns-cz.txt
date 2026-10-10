@@ -1,0 +1,5 @@
+# Providers met eigen netwerk; bron voor ip-list-cz.txt
+# Een AS per regel. Alles na # is commentaar.
+AS5610 # O2 Czech Republic
+AS16019 # Vodafone Czech Republic
+AS5588 # T-Mobile Czech Republic

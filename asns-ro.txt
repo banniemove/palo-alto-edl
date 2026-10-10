@@ -1,0 +1,6 @@
+# Providers met eigen netwerk; bron voor ip-list-ro.txt
+# Een AS per regel. Alles na # is commentaar.
+AS8708 # DIGI Romania (RCS&RDS)
+AS9050 # Telekom Romania
+AS8953 # Orange Romania
+AS12302 # Vodafone Romania
