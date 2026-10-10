@@ -1,10 +1,10 @@
 # Controlerapport DE
 
-Gegenereerd: 2026-10-10 08:01 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 2138 prefixes (1957 IPv4, 181 IPv6).
+Gegenereerd: 2026-10-10 08:09 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 2138 prefixes (1957 IPv4, 181 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
-| AS3320 | DTAG Deutsche Telekom AG | 912 | 45 | 37 |
+| AS3320 | DTAG Deutsche Telekom AG | 912 | 45 | 36 |
 | AS3209 | VODANET Vodafone GmbH | 305 | 19 | 0 |
 | AS6805 | TDDE-ASN1 Telefonica Germany GmbH & Co.OHG | 33 | 4 | 2 |
 | AS8881 | VERSATEL 1&1 Versatel GmbH | 568 | 76 | 19 |
