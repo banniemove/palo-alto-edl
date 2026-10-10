@@ -4,6 +4,6 @@ AS3352    # Telefonica de Espana (Movistar)
 AS12430   # Vodafone Espana
 AS6739    # Vodafone Ono
 AS12479   # Orange Espagne
-AS12715   # Jazztel (Orange)
+# AS12715 # Jazztel: kondigt niets meer aan (opgegaan in AS12479)
 AS57269   # DIGI Spain
 AS12338   # Euskaltel

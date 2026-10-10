@@ -1,1 +1,3 @@
 # Prefixes die NIET in ip-list-lu.txt mogen. Zie reports/lu.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+78.111.137.0/24        # AS56665 FR

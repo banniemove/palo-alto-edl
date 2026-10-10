@@ -1,1 +1,9 @@
 # Prefixes die NIET in ip-list-at.txt mogen. Zie reports/at.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+151.5.88.0/21          # AS25255 IT
+195.72.176.0/22        # AS8447 GB
+2a07:7e82::/40         # AS25255 IT
+45.3.56.0/24           # AS25255 IT
+79.132.66.0/23         # AS8447 LV
+83.148.156.0/22        # AS8447 GB
+86.53.152.0/22         # AS8447 GB

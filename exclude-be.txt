@@ -1,1 +1,6 @@
 # Prefixes die NIET in ip-list-be.txt mogen. Zie reports/be.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+194.62.72.0/24         # AS47377 NL
+2a01:caa0::/32         # AS47377 FR, LU
+45.144.130.0/23        # AS47377 MY, ZA
+85.94.224.0/19         # AS47377 LU

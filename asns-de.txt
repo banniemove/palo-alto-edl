@@ -2,7 +2,7 @@
 # Een AS per regel. Alles na # is commentaar.
 AS3320    # Deutsche Telekom
 AS3209    # Vodafone Deutschland
-AS31334   # Vodafone Kabel Deutschland
+# AS31334 # Vodafone Kabel Deutschland: kondigt niets meer aan (opgegaan in AS3209)
 AS6805    # Telefonica Germany (O2)
 AS8881    # 1&1 Versatel
 AS60294   # Deutsche Glasfaser

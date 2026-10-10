@@ -1,6 +1,8 @@
 # Providers met eigen netwerk; bron voor ip-list-pt.txt
 # Een AS per regel. Alles na # is commentaar.
-AS3243    # MEO (Altice Portugal)
+AS3243    # MEO residencial (Altice Portugal)
+AS15525   # MEO empresas
+AS42863   # MEO movel
 AS2860    # NOS
 AS12353   # Vodafone Portugal
 AS13156   # NOWO (Cabovisao)

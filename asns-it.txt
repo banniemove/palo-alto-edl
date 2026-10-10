@@ -5,6 +5,6 @@ AS30722   # Vodafone Italia
 AS12874   # Fastweb
 AS1267    # WINDTRE (Wind)
 AS24608   # WINDTRE (ex-H3G)
-AS29447   # Iliad Italia
+AS29447   # Iliad Italia (bij RIPE op naam van zusterbedrijf Scaleway SAS)
 AS8612    # Tiscali
 AS35612   # EOLO

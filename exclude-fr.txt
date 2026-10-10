@@ -1,2 +1,18 @@
 # Prefixes die NIET in ip-list-fr.txt mogen, ook al kondigt een AS uit asns-fr.txt ze aan.
 # Een prefix per regel. Alles na # is commentaar.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+136.173.211.0/24       # AS3215 BE
+136.173.212.0/24       # AS3215 BE
+147.189.72.0/22        # AS3215 GB
+158.234.148.0/24       # AS3215 GB
+185.212.212.0/22       # AS24904 CH
+192.90.127.0/24        # AS3215 US
+192.90.218.0/24        # AS3215 US
+192.90.64.0/19         # AS3215 US
+194.110.120.0/22       # AS24904 CH
+195.36.107.0/24        # AS3215 DE
+2602:810:2082::/48     # AS3215 US
+2a03:1e84:68f::/48     # AS3215 DE
+45.128.40.0/22         # AS24904 CH
+45.87.180.0/22         # AS24904 CH
+87.238.104.0/21        # AS3215 MC

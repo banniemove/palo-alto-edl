@@ -1,1 +1,5 @@
 # Prefixes die NIET in ip-list-ch.txt mogen. Zie reports/ch.md voor kandidaten.
+# Volgens GeoLite buiten het land in gebruik (rapport 2026-10-10)
+185.207.100.0/22       # AS6730 DE
+185.51.184.0/22        # AS6730 DE
+2a00:5646::/32         # AS13030 US
