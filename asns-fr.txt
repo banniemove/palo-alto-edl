@@ -2,8 +2,8 @@
 # Een AS per regel. Alles na # is commentaar.
 AS3215    # Orange France (vast en mobiel)
 AS15557   # SFR (LDCOM)
-AS21502   # SFR (ex-Numericable, kabel)
-AS8228    # SFR (ex-Cegetel)
+AS21502   # SFR (ex-Numericable; nog 1 prefix, rest in AS15557)
+# AS8228  # SFR ex-Cegetel: kondigt niets meer aan (opgegaan in AS15557)
 AS5410    # Bouygues Telecom
 AS12322   # Free (Proxad)
 AS51207   # Free Mobile
