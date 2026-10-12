@@ -1,6 +1,6 @@
 # Controlerapport NL
 
-Gegenereerd: 2026-10-10 09:37 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1325 prefixes (1149 IPv4, 176 IPv6).
+Gegenereerd: 2026-10-12 11:02 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1326 prefixes (1150 IPv4, 176 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
@@ -9,7 +9,7 @@ Gegenereerd: 2026-10-10 09:37 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1325
 | AS33915 | TNF-AS Vodafone Libertel B.V. | 344 | 31 | 0 |
 | AS50266 | Odido Odido Netherlands B.V. | 44 | 1 | 0 |
 | AS13127 | Odido Odido Netherlands B.V. | 27 | 11 | 0 |
-| AS31615 | Odido Odido Netherlands B.V. | 14 | 0 | 0 |
+| AS31615 | Odido Odido Netherlands B.V. | 15 | 0 | 0 |
 | AS15435 | KABELFOON DELTA Fiber Nederland B.V. | 16 | 8 | 0 |
 | AS30925 | SPEEDXS-AS DELTA Fiber Nederland B.V. | 12 | 1 | 0 |
 | AS39686 | AS-EUROFIBER Eurofiber Nederland BV | 77 | 20 | 20 |

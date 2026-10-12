@@ -1,10 +1,10 @@
 # Controlerapport FR
 
-Gegenereerd: 2026-10-10 09:35 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 2340 prefixes (1746 IPv4, 594 IPv6).
+Gegenereerd: 2026-10-12 10:58 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 2344 prefixes (1750 IPv4, 594 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
-| AS3215 | AS3215 Orange S.A. | 924 | 45 | 11 |
+| AS3215 | AS3215 Orange S.A. | 928 | 45 | 11 |
 | AS15557 | LDCOMNET Societe Francaise Du Radiotelephone - SFR SA | 147 | 12 | 0 |
 | AS21502 | ASN-NUMERICABLE Societe Francaise Du Radiotelephone - SFR SA | 1 | 0 | 0 |
 | AS5410 | BOUYGTEL-ISP Bouygues Telecom SA | 20 | 2 | 0 |
