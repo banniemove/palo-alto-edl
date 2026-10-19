@@ -1,6 +1,6 @@
 # Controlerapport PT
 
-Gegenereerd: 2026-10-12 11:02 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 386 prefixes (371 IPv4, 15 IPv6).
+Gegenereerd: 2026-10-19 09:03 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 373 prefixes (358 IPv4, 15 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
@@ -9,4 +9,4 @@ Gegenereerd: 2026-10-12 11:02 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 386 
 | AS42863 | MEO-MOVEL MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A. | 9 | 1 | 0 |
 | AS2860 | NOS_COMUNICACOES NOS COMUNICACOES, S.A. | 135 | 8 | 0 |
 | AS12353 | VODAFONE-PT Vodafone Portugal - Communicacoes Pessoais S.A. | 28 | 2 | 0 |
-| AS13156 | AS13156 NOWO COMMUNICATIONS, S.A. | 140 | 1 | 0 |
+| AS13156 | AS13156 NOWO COMMUNICATIONS, S.A. | 127 | 1 | 0 |
