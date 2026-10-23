@@ -2,5 +2,6 @@
 # Een AS per regel. Alles na # is commentaar.
 AS5610 # O2 Czech Republic
 AS16019 # Vodafone Czech Republic
-AS5588 # T-Mobile Czech Republic
+# AS5588 GTS Central Europe: kondigt niets meer aan sinds 2026-10 (was Hongaars, zit nu in AS5483)
+AS13036 # T-Mobile Czech Republic
 AS6830 geo # ex-UPC Ceska republika (Liberty Global, alleen CZ-prefixes)
