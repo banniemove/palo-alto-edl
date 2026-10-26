@@ -1,6 +1,6 @@
 # Controlerapport HR
 
-Gegenereerd: 2026-10-23 08:59 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 443 prefixes (436 IPv4, 7 IPv6).
+Gegenereerd: 2026-10-26 09:04 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 443 prefixes (436 IPv4, 7 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|

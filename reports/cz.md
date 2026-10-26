@@ -1,6 +1,6 @@
 # Controlerapport CZ
 
-Gegenereerd: 2026-10-23 08:56 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 220 prefixes (195 IPv4, 25 IPv6).
+Gegenereerd: 2026-10-26 09:01 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 220 prefixes (195 IPv4, 25 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|

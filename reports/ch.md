@@ -1,10 +1,10 @@
 # Controlerapport CH
 
-Gegenereerd: 2026-10-23 08:56 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 749 prefixes (638 IPv4, 111 IPv6).
+Gegenereerd: 2026-10-26 09:01 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 750 prefixes (639 IPv4, 111 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
-| AS3303 | SWISSCOM Swisscom (Schweiz) AG | 341 | 49 | 0 |
+| AS3303 | SWISSCOM Swisscom (Schweiz) AG | 342 | 49 | 0 |
 | AS6730 | SUNRISE Sunrise GmbH | 157 | 19 | 2 |
 | AS15796 | SALT-CH Salt Mobile SA | 2 | 1 | 0 |
 | AS13030 | INIT7 Init7 (Switzerland) Ltd. | 70 | 21 | 1 |

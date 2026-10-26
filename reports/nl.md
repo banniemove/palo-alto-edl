@@ -1,6 +1,6 @@
 # Controlerapport NL
 
-Gegenereerd: 2026-10-23 09:01 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1323 prefixes (1148 IPv4, 175 IPv6).
+Gegenereerd: 2026-10-26 09:07 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1322 prefixes (1147 IPv4, 175 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
@@ -13,7 +13,7 @@ Gegenereerd: 2026-10-23 09:01 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1323
 | AS15435 | KABELFOON DELTA Fiber Nederland B.V. | 16 | 8 | 0 |
 | AS30925 | SPEEDXS-AS DELTA Fiber Nederland B.V. | 12 | 1 | 0 |
 | AS39686 | AS-EUROFIBER Eurofiber Nederland BV | 77 | 20 | 20 |
-| AS12414 | NL-SOLCON Solcon Internetdiensten B.V. | 19 | 2 | 0 |
+| AS12414 | NL-SOLCON Solcon Internetdiensten B.V. | 18 | 2 | 0 |
 | AS43995 | NL-KABELTEX Netwerk Exploitatiemaatschappij B.V. | 17 | 2 | 0 |
 | AS202606 | FIBERNOORD-ASN Fiber Noord BV | 1 | 0 | 0 |
 | AS206238 | FREEDOMINTERNET Freedom Internet BV | 23 | 1 | 0 |
