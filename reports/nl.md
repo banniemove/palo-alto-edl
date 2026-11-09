@@ -1,18 +1,18 @@
 # Controlerapport NL
 
-Gegenereerd: 2026-11-02 11:20 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1321 prefixes (1145 IPv4, 176 IPv6).
+Gegenereerd: 2026-11-09 11:47 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1320 prefixes (1144 IPv4, 176 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
-| AS1136 | KPN KPN B.V. | 425 | 15 | 13 |
+| AS1136 | KPN KPN B.V. | 425 | 15 | 10 |
 | AS8737 | PT KPN B.V. | 6 | 0 | 0 |
 | AS33915 | TNF-AS Vodafone Libertel B.V. | 343 | 31 | 0 |
 | AS50266 | Odido Odido Netherlands B.V. | 45 | 1 | 0 |
 | AS13127 | Odido Odido Netherlands B.V. | 23 | 11 | 0 |
-| AS31615 | Odido Odido Netherlands B.V. | 12 | 0 | 0 |
+| AS31615 | Odido Odido Netherlands B.V. | 11 | 0 | 0 |
 | AS15435 | KABELFOON DELTA Fiber Nederland B.V. | 16 | 8 | 0 |
 | AS30925 | SPEEDXS-AS DELTA Fiber Nederland B.V. | 12 | 1 | 0 |
-| AS39686 | AS-EUROFIBER Eurofiber Nederland BV | 77 | 21 | 21 |
+| AS39686 | AS-EUROFIBER Eurofiber Nederland BV | 77 | 21 | 20 |
 | AS12414 | NL-SOLCON Solcon Internetdiensten B.V. | 20 | 2 | 0 |
 | AS43995 | NL-KABELTEX Netwerk Exploitatiemaatschappij B.V. | 17 | 2 | 0 |
 | AS202606 | FIBERNOORD-ASN Fiber Noord BV | 1 | 0 | 0 |
@@ -24,9 +24,3 @@ Gegenereerd: 2026-11-02 11:20 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 1321
 | AS208864 | weserve Weserve B.V. | 28 | 2 | 0 |
 | AS35467 | DDF-AS DDFR IT Infra & Security B.V. | 13 | 1 | 0 |
 | AS62105 | JONAZ Fiber Crew B.V. | 6 | 1 | 0 |
-
-## Prefixes buiten het land die nog in de lijst staan
-
-Volgens GeoLite in gebruik buiten dit land. Voeg ze toe aan `exclude-nl.txt` als ze eruit moeten.
-
-- `2620:12d:1005::/48` AS39686 (CA)

@@ -1,6 +1,6 @@
 # Controlerapport CY
 
-Gegenereerd: 2026-11-02 11:16 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 379 prefixes (354 IPv4, 25 IPv6).
+Gegenereerd: 2026-11-09 11:39 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 379 prefixes (354 IPv4, 25 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|

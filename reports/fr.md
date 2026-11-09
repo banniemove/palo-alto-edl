@@ -1,6 +1,6 @@
 # Controlerapport FR
 
-Gegenereerd: 2026-11-02 11:18 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 2344 prefixes (1750 IPv4, 594 IPv6).
+Gegenereerd: 2026-11-09 11:42 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 2345 prefixes (1750 IPv4, 595 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
@@ -11,4 +11,4 @@ Gegenereerd: 2026-11-02 11:18 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 2344
 | AS12322 | PROXAD Free SAS | 538 | 527 | 0 |
 | AS51207 | FREEM Free Mobile SAS | 4 | 1 | 0 |
 | AS24904 | KWAOO K-Net SAS | 34 | 1 | 4 |
-| AS34177 | CELESTE-AS Celeste SAS | 90 | 8 | 0 |
+| AS34177 | CELESTE-AS Celeste SAS | 90 | 9 | 0 |

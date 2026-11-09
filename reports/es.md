@@ -1,12 +1,12 @@
 # Controlerapport ES
 
-Gegenereerd: 2026-11-02 11:17 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 8808 prefixes (7424 IPv4, 1384 IPv6).
+Gegenereerd: 2026-11-09 11:41 UTC. Bron: RIPEstat. Totaal na uitsluitingen: 8756 prefixes (7374 IPv4, 1382 IPv6).
 
 | AS | Houder (RIPE) | IPv4 | IPv6 | Buiten land (GeoLite) |
 |---|---|---|---|---|
 | AS3352 | Telefonica_de_EspaNa TELEFONICA DE ESPANA S.A.U. | 209 | 17 | 1 |
 | AS12430 | VODAFONE_ES VODAFONE ESPANA S.A.U. | 44 | 3 | 0 |
 | AS6739 | ONO-AS VODAFONE ONO, S.A. | 68 | 1 | 0 |
-| AS12479 | UNI2-AS Orange Espagne SA | 6975 | 1340 | 0 |
+| AS12479 | UNI2-AS Orange Espagne SA | 6925 | 1338 | 0 |
 | AS57269 | DIGI-ES DIGI SPAIN TELECOM S.A | 13 | 1 | 0 |
 | AS12338 | EUSKALTEL Euskaltel S.A. | 116 | 22 | 0 |
